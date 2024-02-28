@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+}
+.container{
+   background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+   display: flex;
+   justify-content: space-between;
+   width: 85%;
+   height: 480px;
+   margin: auto;
+   margin-top:120px;
+   box-shadow: 0px 0px 10px black;
+}  
+#para{
+    max-width: 40%;
+    color:white;
+    padding: 30px;
+    margin:10px;
+    font-size: large;
+    line-height: 20px;
+}
+#img img{
+    position: absolute;
+    right: 0;
+    top:8%;
+    width:580px;
+    height: 280px;
+}
+::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: skewy(10deg);
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    z-index: -1;
+    box-shadow:0px 0px 4px 0px black;
+}
+#shoe:hover{
+    width:850px ;
+    height: 600px;
+}
